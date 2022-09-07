@@ -1,0 +1,15 @@
+.fooditem .card{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+       color: #333;
+       padding: 10px;
+       background-color: white;   
+}
+.fooditem .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.fooditem img{
+    width: 350px;
+}
